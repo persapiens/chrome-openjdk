@@ -1,4 +1,4 @@
-FROM persapiens/openjdk:8u181
+FROM persapiens/openjdk:8u191
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
 ARG CHROME_VERSION="google-chrome-stable"
