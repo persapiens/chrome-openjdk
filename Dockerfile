@@ -10,7 +10,7 @@ ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 RUN apt-get update -qqy && \
   apt-get upgrade -qqy --no-install-recommends && \
   apt-get install -qqy xvfb dbus-x11 fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic && \
-  apt-get install -qqy curl && \
+  apt-get install -qqy curl gnupg && \
   curl -fsSL https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
   echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list && \
   apt-get update -qqy && \
