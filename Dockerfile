@@ -1,5 +1,6 @@
-FROM persapiens/openjdk:11u4
-MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
+FROM adoptopenjdk:11.0.6_10-jdk-hotspot
+
+LABEL MANTAINER="Marcelo Fernandes <persapiens@gmail.com>"
 
 ARG CHROME_VERSION="google-chrome-stable"
 
