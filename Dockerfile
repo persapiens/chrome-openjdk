@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:jdk-11.0.11_9
+FROM eclipse-temurin:11.0.13_8-jdk-focal
 
 LABEL MANTAINER="Marcelo Fernandes <persapiens@gmail.com>"
 
